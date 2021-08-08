@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    //variaveis
+    //variables
     int tempo = 0;
     int velo  = 0;
     int rend  = 0;
