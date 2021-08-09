@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     //variables
@@ -17,10 +18,10 @@ int main() {
     dist  = velo * tempo;
     lit   = dist / rend;
 
-    printf("R = %i"
-           "V = %i"
-           "T = %i"
-           "D = %i"
+    printf("R = %i\n"
+           "V = %i\n"
+           "T = %i\n"
+           "D = %i\n"
            "L = %i\n", rend, velo, tempo, dist, lit);
 
     return 0;
