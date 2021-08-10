@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
     int temp = 0; 
 
     scanf("%d %d %d", &numl[0], &numl[1], &numl[2]);
-     
+    //list organizer 
     for(int i = 0; i < 2; i++){
         if(numl[i] > numl[i + 1]){
             temp        = numl[i]; 
