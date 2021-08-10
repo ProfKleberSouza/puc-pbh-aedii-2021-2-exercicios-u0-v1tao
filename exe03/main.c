@@ -1,8 +1,28 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+int main(int argc, char *argv[]) {
+    //variables
+    int num = 0;
+    
+    scanf("%d", &num);
+
+    if(num == 0){
+        printf("NUMERO NEUTRO");
+    }
+    else{
+        if(num > 0){
+            if(num % 2 == 0)
+                printf("NUMERO PAR POSITIVO\n");
+            else
+                printf("NUMERO IMPAR POSITIVO\n");
+        } 
+        else{
+            if(num % 2 == 0)
+                printf("NUMERO PAR NEGATIVO\n");
+            else
+                printf("NUMERO IMPAR NEGATIVO\n");
+        } 
+    } 
+    return 0;
 }
